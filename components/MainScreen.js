@@ -20,7 +20,6 @@ function HomeScreen() {
     )
 }
 
-// how to import functions from other files?
 function MessagesScreen() {
     return (
         <View>
