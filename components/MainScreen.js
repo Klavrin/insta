@@ -20,7 +20,7 @@ function HomeScreen() {
     )
 }
 
-function MessagesScreen() {
+function ProfileScreen() {
     return (
         <View>
             {/* <Messages /> */}
@@ -95,7 +95,7 @@ function Header() {
                 />
                 <Tab.Screen 
                     name='Profile'
-                    component={MessagesScreen}
+                    component={ProfileScreen}
                     options={{
                         headerTitle: '',
                         tabBarIcon: () => (
